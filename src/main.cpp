@@ -265,7 +265,7 @@ int main()
       }
     }
 
-});
+  });
 #endif
 
   // We don't need this since we're not using HTTP but if it's removed the program
@@ -302,7 +302,7 @@ int main()
     std::cout << "Disconnected" << std::endl;
   });
 #endif
-  
+
 
   int port = 4567;
   if (h.listen("127.0.0.1", port))
